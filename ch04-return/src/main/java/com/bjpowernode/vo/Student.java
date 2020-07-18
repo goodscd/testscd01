@@ -5,6 +5,7 @@ public class Student {
     // 属性名和请求中参数名一样
     private String name;
     private Integer age;
+    private String email;
 
     public Student() {
         System.out.println("===Student的无参数构造方法===");
